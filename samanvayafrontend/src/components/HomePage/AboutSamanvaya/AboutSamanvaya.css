@@ -1,0 +1,123 @@
+.samanvaya {
+    display: flex;
+    flex-direction: column;
+    padding-block: 14vh;
+    gap: 40px;
+  }
+
+  .samanvaya-content {
+    display: flex;
+    justify-content: space-between;
+    background: #b4d89d;
+    padding: 40px;
+    font-size: 1.1em;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background: #d5eac8;
+    border-radius: 100px 20px 75px 50px;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .about-image {
+    width: 50%;
+  }
+
+  .tech-stack-layer {
+    display: flex;
+    flex-direction: column;
+    background: #b4d89d;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .tech-stack-layer > h2 {
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  .tech-stack {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .tech-item > h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  .tech-item > p {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  .tech-icon {
+    font-size: 2.5em;
+  }
+
+
+  /* challenges faced */
+  .challenges-faced-layer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+    background: #b4d89d;
+  }
+
+  .challenges-faced-layer > h2 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-decoration: underline;
+  }
+
+  .vertical-timeline-element-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #89bd69 !important;
+    color: #15250e;
+    gap: 12px;
+  }
+
+  .vertical-timeline::before {
+    background: #15250e !important;
+  }
+
+  .chapter1,
+  .chapter2,
+  .chapter3 {
+    background: #d5eac8;
+    color: #15250e;
+    font-weight: 900;
+    box-shadow: inset 3px 3px 5px #15250e;
+    padding-inline: 20px;
+    padding-block: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .chapter1 {
+    align-self: flex-end;
+  }
+  .chapter2 {
+    align-self: flex-start;
+  }
+  .chapter3 {
+    align-self: flex-end;
+  }

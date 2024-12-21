@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99vw;
+  height: 10vh;
+}
+
+.nav-apps {
+  display: flex;
+  gap: 15px;
+  margin-right: 8px;
+}
+
+.nav-name,
+.nav-opt-apps,
+.nav-need-apps {
+  background: #f0f8ff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px #00000033;
+  gap: 10px;
+  padding: 10px;
+}
+
+.nav-name > img {
+  object-fit: cover;
+  height: 6vh;
+  border-radius: 10px;
+}
+
+.nav-name h1 {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.create-roombtn {
+  background: #000;
+  color: #b2ffff;
+  padding: 10px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-opt-apps > button,
+.nav-need-apps > button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-opt-apps > button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.1em;
+}
+
+.nav-opt-apps {
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  overflow: hidden;
+}
+
+.nav-opt-apps.hidden {
+  opacity: 0;
+  max-height: 0;
+}
+
+.hidebtn {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.micbtn,
+.profilebtn,
+.sharebtn {
+  width: 50px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button.active {
+  background-color: #000000;
+  color: #9affff;
+}

@@ -1,0 +1,158 @@
+.about-page-layer {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5dc;
+    color: #2c1a00;
+    font-weight: 500;
+    padding-top: 11vh;
+  }
+
+  .about-page {
+    display: flex;
+  }
+
+  .about-heading {
+    text-decoration: underline;
+    color: #3a2b0a;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-samanvaya,
+  .about-vision,
+  .special-thanks {
+    display: flex;
+    flex-direction: column;
+    width: 60ch;
+    gap: 8px;
+    padding: 44px;
+    box-shadow: inset 0 6px 10px #00000080;
+  }
+
+  .about-samanvaya {
+    background: #e2da85;
+  }
+
+  .about-vision {
+    background: #cfc76e;
+  }
+
+  .special-thanks {
+    background: #fff79c;
+  }
+
+  .dev-home {
+    display: flex;
+    flex-direction: column;
+    padding: 44px;
+    background: #f5f5dc;
+    gap: 40px;
+  }
+
+  .about-developer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .home {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #fff79c;
+    color: black;
+    outline: none;
+    border: 2px solid #2c1a00;
+    border-radius: 20px;
+    padding-inline: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .home-btn > img {
+    width: 30px;
+    border-radius: 20px;
+    border: 1px solid #2c1a00;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: #f4f2d1;
+    box-shadow: inset 4px 0px 10px #000;
+  }
+
+  .timeline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    border-top: 4px solid #956728;
+  }
+
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 20px;
+  }
+
+  .timeline-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #956728;
+    border-radius: 50%;
+    position: relative;
+    top: -17px;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #d4c24b;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+  }
+
+  .timeline-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    background: #d4c24b;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .timeline-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #39240f;
+  }
+
+  .timeline-item h4 {
+    font-size: 1.2rem;
+    color: #39240f;
+  }
+
+  .timeline-item p {
+    font-size: 0.9rem;
+    color: #39240f;
+  }

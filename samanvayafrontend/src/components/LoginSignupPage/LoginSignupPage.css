@@ -1,0 +1,124 @@
+.animation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .hide {
+    display: none;
+    opacity: 0;
+  }
+
+  .login-page-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .login-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container {
+    width: 280px;
+    padding: 30px;
+    background: #a0cca5;
+    border-radius: 10px;
+    box-shadow: 4px 8px 2px rgb(0, 0, 0);
+    text-align: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    z-index: 10;
+  }
+
+  .show-login {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .show-signup {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .hide-signup {
+    transform: translateX(100%); /* Moves the signup form off-screen to the right */
+    opacity: 0;
+  }
+
+  .hide-login {
+    transform: translateX(-100%); /* Moves the login form off-screen to the left */
+    opacity: 0;
+  }
+
+  .form-container > h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .form-group > label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #0e004e;
+    border-radius: 5px;
+  }
+
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0e004e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .form-button:hover {
+    background-color: #000000;
+  }
+
+  .toggle-button {
+    background: none;
+    border: none;
+    color: #0e004e;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  .toggle-button:hover {
+    text-decoration: underline;
+  }
+
+  .form-toggle {
+    margin-top: 30px;
+  }
+
+  .form-toggle a {
+    color: #0e004e;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .form-toggle a:hover {
+    text-decoration: none;
+  }

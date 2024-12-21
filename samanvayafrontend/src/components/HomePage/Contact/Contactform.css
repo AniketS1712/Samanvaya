@@ -1,0 +1,105 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f4f4f9;
+  width: 90vw;
+  height: 90vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  background-color: #00b7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.map-container {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.map-container> iframe {
+  height: 250px;
+  width: 250px;
+}
+
+.contact-form {
+  flex: 2;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-card h2, .contact-card h3 {
+  color: #000;
+  margin: 5px 0;
+}

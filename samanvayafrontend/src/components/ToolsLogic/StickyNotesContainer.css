@@ -1,0 +1,17 @@
+.sticky-notes-board {
+  position: relative;
+  padding: 20px;
+}
+
+.sticky-notes-board__add-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sticky-notes-board__add-btn:hover {
+  background-color: #388e3c;
+}

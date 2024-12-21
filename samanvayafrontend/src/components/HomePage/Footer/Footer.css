@@ -1,0 +1,174 @@
+.footer {
+  display: flex;
+  background: #2b4522;
+  color: #e9f5e3;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.footer-content > p {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links > button {
+  background: none;
+  border: none;
+  color: #e9f5e3;
+  font-size: 1.2em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.link:hover {
+  background: #000000e6;
+}
+
+.link .glow-effect {
+  position: absolute;
+  right: 0;
+  height: 8rem;
+  width: 2rem;
+  background: #ffffff;
+  opacity: 0.3;
+  transform: translateX(5rem) rotate(20deg);
+  transition: all 1s ease-out;
+}
+
+.link:hover .glow-effect {
+  transform: translateX(-10rem) rotate(12deg);
+}
+
+.link:hover {
+  border: 2px solid #fff;
+}
+
+.link .button-content {
+  display: flex;
+  align-items: center;
+}
+
+.link .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.link .text {
+  margin-left: 0.25rem;
+  color: white;
+}
+
+.disclaimer {
+  font-size: 1.2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .footer-content {
+    gap: 20px;
+  }
+
+  .footer-content > p {
+    font-size: 1.1em;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-links > button {
+    font-size: 1em;
+  }
+
+  .social-links {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .link .icon {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .disclaimer {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .social-links {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .link .icon {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .disclaimer {
+    font-size: 0.9rem;
+  }
+}
